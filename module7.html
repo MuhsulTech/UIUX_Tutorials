@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Module 7 – UI/UX for Frontend Developers | UI/UX for Web Dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="course-badge">
+        <span class="course-badge-dot"></span>
+        <span>UI/UX for Web Developers</span>
+      </div>
+      <h1>
+        Module 7:<br />
+        <span>UI/UX for Frontend Developers</span>
+      </h1>
+      <p>
+        Learn how to translate UI/UX decisions into real, interactive, accessible, and responsive frontend code.
+      </p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-label">Your course</div>
+      <div class="progress-info">
+        <span>Module 7 of 10</span>
+        <span>Progress: <strong>84%</strong></span>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" style="width: 84%;"></div>
+      </div>
+      <div class="pill-row">
+        <div class="pill primary">Frontend</div>
+        <div class="pill">Accessibility</div>
+        <div class="pill">Responsive Design</div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div>
+        <div class="nav-title">On this page</div>
+        <div class="nav-links">
+          <a href="#intro" class="active">Introduction</a>
+          <a href="#html">Semantic HTML</a>
+          <a href="#css">CSS for UI</a>
+          <a href="#js">JavaScript for UX</a>
+          <a href="#responsive">Responsive Design</a>
+          <a href="#accessibility">Accessibility (A11y)</a>
+          <a href="#exercise">Practical Exercise</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="nav-title">Modules</div>
+        <div class="nav-links">
+          <a href="module1.html">1. Foundations of UI/UX</a>
+          <a href="module2.html">2. UX Research</a>
+          <a href="module3.html">3. Information Architecture</a>
+          <a href="module4.html">4. Wireframing</a>
+          <a href="module5.html">5. Visual UI Design</a>
+          <a href="module6.html">6. Prototyping</a>
+          <a href="#" class="active">7. UI/UX for Frontend Developers</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="estimate">
+        <span>Estimated time</span>
+        <span>60–80 minutes</span>
+      </div>
+      <button class="cta-button" type="button">
+        <span class="icon">▶</span>
+        <span>Start Module 7</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="index.html">Course Home</a> · <span class="current">Module 7</span>
+    </div>
+
+    <header class="module-header">
+      <div class="module-label-row">
+        <span class="module-number">Module 7</span>
+        <span class="module-badge">Level: Advanced</span>
+        <span class="module-badge">Focus: Implementation</span>
+      </div>
+      <h2 class="module-title">
+        Bringing UI/UX to Life with <span>Frontend Development</span>
+      </h2>
+      <p class="module-goal">
+        This module teaches you how to convert UI/UX designs into real, interactive, responsive, and accessible web interfaces using HTML, CSS, and JavaScript.
+      </p>
+      <div class="tags-row">
+        <span class="tag accent">Frontend</span>
+        <span class="tag">Accessibility</span>
+        <span class="tag">Responsive</span>
+      </div>
+    </header>
+
+    <!-- Section 1: Intro -->
+    <section id="intro" class="section-block">
+      <h3 class="section-heading">1. Why Frontend Developers Need <span>UI/UX</span></h3>
+      <p class="section-lead">
+        Frontend developers bring designs to life. Understanding UI/UX helps you build interfaces that feel intuitive, polished, and user‑friendly.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Your role as a hybrid</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Improve designs during implementation</li>
+            <li><span class="list-bullet">◎</span> Suggest better interactions</li>
+            <li><span class="list-bullet">◎</span> Ensure accessibility</li>
+            <li><span class="list-bullet">◎</span> Optimize performance</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Frontend + UX = Better products</div>
+          <p>
+            When you understand UX, you don’t just code layouts — you build experiences that feel natural and delightful.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: Semantic HTML -->
+    <section id="html" class="section-block">
+      <h3 class="section-heading">2. <span>Semantic HTML</span></h3>
+      <p class="section-lead">
+        Semantic HTML improves accessibility, SEO, and structure. It helps browsers and assistive technologies understand your content.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Common semantic tags</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> &lt;header&gt;</li>
+            <li><span class="list-bullet">◎</span> &lt;nav&gt;</li>
+            <li><span class="list-bullet">◎</span> &lt;main&gt;</li>
+            <li><span class="list-bullet">◎</span> &lt;section&gt;</li>
+            <li><span class="list-bullet">◎</span> &lt;article&gt;</li>
+            <li><span class="list-bullet">◎</span> &lt;footer&gt;</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Why semantic HTML matters</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> Better accessibility</li>
+            <li><span class="list-bullet">◆</span> Better SEO</li>
+            <li><span class="list-bullet">◆</span> Cleaner structure</li>
+            <li><span class="list-bullet">◆</span> Easier maintenance</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: CSS for UI -->
+    <section id="css" class="section-block">
+      <h3 class="section-heading">3. <span>CSS for UI</span></h3>
+      <p class="section-lead">
+        CSS brings visual design to life. It controls layout, spacing, colors, animations, and responsiveness.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Core UI techniques</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Flexbox & Grid</li>
+            <li><span class="list-bullet">◎</span> Shadows & depth</li>
+            <li><span class="list-bullet">◎</span> Transitions & animations</li>
+            <li><span class="list-bullet">◎</span> Responsive spacing</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Modern CSS features</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> clamp()</li>
+            <li><span class="list-bullet">◆</span> CSS variables</li>
+            <li><span class="list-bullet">◆</span> prefers-color-scheme</li>
+            <li><span class="list-bullet">◆</span> container queries</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 4: JavaScript for UX -->
+    <section id="js" class="section-block">
+      <h3 class="section-heading">4. <span>JavaScript for UX</span></h3>
+      <p class="section-lead">
+        JavaScript adds interactivity and enhances user experience when used thoughtfully.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Useful UX interactions</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Smooth scrolling</li>
+            <li><span class="list-bullet">◎</span> Reveal on scroll</li>
+            <li><span class="list-bullet">◎</span> Modals & overlays</li>
+            <li><span class="list-bullet">◎</span> Sliders & carousels</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Best practices</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> Avoid heavy scripts</li>
+            <li><span class="list-bullet">◆</span> Keep interactions meaningful</li>
+            <li><span class="list-bullet">◆</span> Prioritize performance</li>
+            <li><span class="list-bullet">◆</span> Respect accessibility</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 5: Responsive Design -->
+    <section id="responsive" class="section-block">
+      <h3 class="section-heading">5. <span>Responsive Design</span></h3>
+      <p class="section-lead">
+        Responsive design ensures your UI works on all screen sizes — mobile, tablet, and desktop.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Mobile‑first approach</div>
+          <p>
+            Start designing for the smallest screen first, then scale up. This ensures clarity and simplicity.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Responsive techniques</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Media queries</li>
+            <li><span class="list-bullet">◎</span> Fluid typography</li>
+            <li><span class="list-bullet">◎</span> Flexible grids</li>
+            <li><span class="list-bullet">◎</span> Adaptive images</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 6: Accessibility -->
+    <section id="accessibility" class="section-block">
+      <h3 class="section-heading">6. <span>Accessibility (A11y)</span></h3>
+      <p class="section-lead">
+        Accessibility ensures your website can be used by everyone, including people with disabilities.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">A11y essentials</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> ARIA labels</li>
+            <li><span class="list-bullet">◎</span> Keyboard navigation</li>
+            <li><span class="list-bullet">◎</span> Color contrast</li>
+            <li><span class="list-bullet">◎</span> Focus states</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Why accessibility matters</div>
+          <p>
+            It’s not optional — it’s essential. Accessible websites reach more users and provide a better experience for everyone.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 7: Exercise -->
+    <section id="exercise" class="section-block">
+      <h3 class="section-heading">7. Practical Exercise: <span>Build a Responsive UI</span></h3>
+      <p class="section-lead">
+        Convert your Module 5 UI design into a fully responsive, accessible webpage using HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="callout">
+        <div class="callout-icon">🧪</div>
+        <div>
+          <div class="badge-exercise">Exercise</div>
+          <ol class="exercise-list">
+            <li>Build the homepage using semantic HTML.</li>
+            <li>Apply your color palette and typography.</li>
+            <li>Make the layout responsive with media queries.</li>
+            <li>Add smooth scroll and reveal animations.</li>
+            <li>Ensure all buttons and links have focus states.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="module-footer">
+      <div>Next up: <a href="module8.html">Module 8 – Advanced UX Concepts</a></div>
+      <div class="module-step-nav">
+        <a class="step-btn" href="module6.html">
+          <span class="icon">⬅</span>
+          <span>Previous: Module 6</span>
+        </a>
+        <a class="step-btn primary" href="module8.html">
+          <span>Next: Module 8</span>
+          <span class="icon">➡</span>
+        </a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

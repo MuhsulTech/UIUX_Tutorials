@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Module 6 – Prototyping | UI/UX for Web Dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="course-badge">
+        <span class="course-badge-dot"></span>
+        <span>UI/UX for Web Developers</span>
+      </div>
+      <h1>
+        Module 6:<br />
+        <span>Prototyping</span>
+      </h1>
+      <p>
+        Learn how to turn static UI designs into interactive prototypes that simulate real user experiences.
+      </p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-label">Your course</div>
+      <div class="progress-info">
+        <span>Module 6 of 10</span>
+        <span>Progress: <strong>72%</strong></span>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" style="width: 72%;"></div>
+      </div>
+      <div class="pill-row">
+        <div class="pill primary">Prototyping</div>
+        <div class="pill">Interactions</div>
+        <div class="pill">Testing</div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div>
+        <div class="nav-title">On this page</div>
+        <div class="nav-links">
+          <a href="#intro" class="active">Introduction</a>
+          <a href="#what-is-prototype">What is a Prototype?</a>
+          <a href="#types">Types of Prototypes</a>
+          <a href="#figma">Prototyping in Figma</a>
+          <a href="#testing">User Testing</a>
+          <a href="#exercise">Practical Exercise</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="nav-title">Modules</div>
+        <div class="nav-links">
+          <a href="module1.html">1. Foundations of UI/UX</a>
+          <a href="module2.html">2. UX Research</a>
+          <a href="module3.html">3. Information Architecture</a>
+          <a href="module4.html">4. Wireframing</a>
+          <a href="module5.html">5. Visual UI Design</a>
+          <a href="#" class="active">6. Prototyping</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="estimate">
+        <span>Estimated time</span>
+        <span>45–60 minutes</span>
+      </div>
+      <button class="cta-button" type="button">
+        <span class="icon">▶</span>
+        <span>Start Module 6</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="index.html">Course Home</a> · <span class="current">Module 6</span>
+    </div>
+
+    <header class="module-header">
+      <div class="module-label-row">
+        <span class="module-number">Module 6</span>
+        <span class="module-badge">Level: Intermediate → Advanced</span>
+        <span class="module-badge">Focus: Interaction & Flow</span>
+      </div>
+      <h2 class="module-title">
+        Creating Interactive <span>Prototypes</span>
+      </h2>
+      <p class="module-goal">
+        Prototyping allows you to simulate how your design behaves before writing any code. It helps you test ideas, validate flows, and gather feedback early.
+      </p>
+      <div class="tags-row">
+        <span class="tag accent">Figma</span>
+        <span class="tag">Interactions</span>
+        <span class="tag">User Testing</span>
+      </div>
+    </header>
+
+    <!-- Section 1: Intro -->
+    <section id="intro" class="section-block">
+      <h3 class="section-heading">1. What is <span>Prototyping</span>?</h3>
+      <p class="section-lead">
+        Prototyping is the process of creating interactive simulations of your UI. It helps you test how users will navigate and interact with your design.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Why prototypes matter</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Validate ideas early</li>
+            <li><span class="list-bullet">◎</span> Test user flows</li>
+            <li><span class="list-bullet">◎</span> Identify usability issues</li>
+            <li><span class="list-bullet">◎</span> Communicate interactions clearly</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Prototype characteristics</div>
+          <ul class="list">
+            <li><span class="list-bullet">✎</span> Clickable elements</li>
+            <li><span class="list-bullet">✎</span> Page transitions</li>
+            <li><span class="list-bullet">✎</span> Micro‑interactions</li>
+            <li><span class="list-bullet">✎</span> Simulated flows</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: What is a Prototype -->
+    <section id="what-is-prototype" class="section-block">
+      <h3 class="section-heading">2. What is a <span>Prototype</span>?</h3>
+      <p class="section-lead">
+        A prototype is a clickable version of your UI that behaves like a real product, but without any backend or code.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">What prototypes simulate</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> Navigation</li>
+            <li><span class="list-bullet">◆</span> Button interactions</li>
+            <li><span class="list-bullet">◆</span> Form flows</li>
+            <li><span class="list-bullet">◆</span> Page transitions</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">What prototypes don’t simulate</div>
+          <ul class="list">
+            <li><span class="list-bullet">◼</span> Real data</li>
+            <li><span class="list-bullet">◼</span> Backend logic</li>
+            <li><span class="list-bullet">◼</span> Performance</li>
+            <li><span class="list-bullet">◼</span> Security</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: Types of Prototypes -->
+    <section id="types" class="section-block">
+      <h3 class="section-heading">3. Types of <span>Prototypes</span></h3>
+      <p class="section-lead">
+        Different prototypes serve different purposes depending on the stage of design.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Low‑Fidelity Prototypes</div>
+          <p>
+            Simple clickable wireframes. Great for testing early ideas and flows.
+          </p>
+
+        <article class="card">
+          <div class="card-title">High‑Fidelity Prototypes</div>
+          <p>
+            Fully designed screens with animations and transitions. Ideal for usability testing and presentations.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 4: Figma Prototyping -->
+    <section id="figma" class="section-block">
+      <h3 class="section-heading">4. Prototyping in <span>Figma</span></h3>
+      <p class="section-lead">
+        Figma is one of the most popular tools for creating interactive prototypes.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Basic interactions</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> On click → Navigate to</li>
+            <li><span class="list-bullet">◎</span> Hover effects</li>
+            <li><span class="list-bullet">◎</span> Overlay menus</li>
+            <li><span class="list-bullet">◎</span> Scroll interactions</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Advanced interactions</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> Smart animate</li>
+            <li><span class="list-bullet">◆</span> Micro‑interactions</li>
+            <li><span class="list-bullet">◆</span> Component variants</li>
+            <li><span class="list-bullet">◆</span> Interactive components</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 5: User Testing -->
+    <section id="testing" class="section-block">
+      <h3 class="section-heading">5. <span>User Testing</span></h3>
+      <p class="section-lead">
+        User testing helps you validate whether your prototype is intuitive and easy to use.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">What to test</div>
+          <ul class="list">
+            <li><span class="list-bullet">◎</span> Can users complete tasks?</li>
+            <li><span class="list-bullet">◎</span> Where do they get stuck?</li>
+            <li><span class="list-bullet">◎</span> Are labels clear?</li>
+            <li><span class="list-bullet">◎</span> Is navigation intuitive?</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Testing methods</div>
+          <ul class="list">
+            <li><span class="list-bullet">◆</span> Moderated testing</li>
+            <li><span class="list-bullet">◆</span> Unmoderated testing</li>
+            <li><span class="list-bullet">◆</span> A/B testing</li>
+            <li><span class="list-bullet">◆</span> Heatmaps</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 6: Exercise -->
+    <section id="exercise" class="section-block">
+      <h3 class="section-heading">6. Practical Exercise: <span>Create a Clickable Prototype</span></h3>
+      <p class="section-lead">
+        Turn your Module 5 UI design into a fully interactive prototype in Figma.
+      </p>
+
+      <div class="callout">
+        <div class="callout-icon">🧪</div>
+        <div>
+          <div class="badge-exercise">Exercise</div>
+          <ol class="exercise-list">
+            <li>Import your UI screens into Figma.</li>
+            <li>Connect buttons to their respective pages.</li>
+            <li>Add hover states and transitions.</li>
+            <li>Use Smart Animate for smooth effects.</li>
+            <li>Test your prototype with 2–3 people.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="module-footer">
+      <div>Next up: <a href="module7.html">Module 7 – UI/UX for Frontend Developers</a></div>
+      <div class="module-step-nav">
+        <a class="step-btn" href="module5.html">
+          <span class="icon">⬅</span>
+          <span>Previous: Module 5</span>
+        </a>
+        <a class="step-btn primary" href="module7.html">
+          <span>Next: Module 7</span>
+          <span class="icon">➡</span>
+        </a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

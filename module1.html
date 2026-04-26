@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Module 1 – Foundations of UI/UX | UI/UX for Web Dev</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- Sidebar / course navigation -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="course-badge">
+        <span class="course-badge-dot"></span>
+        <span>UI/UX for Web Developers</span>
+      </div>
+      <h1>
+        Module 1:<br />
+        <span>Foundations of UI/UX</span>
+      </h1>
+      <p>
+        Learn what UX and UI really mean, how they connect to web development, and how to think in terms of user goals.
+      </p>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-label">Your course</div>
+      <div class="progress-info">
+        <span>Module 1 of 10</span>
+        <span>Progress: <strong>12%</strong></span>
+      </div>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill"></div>
+      </div>
+      <div class="pill-row">
+        <div class="pill primary">Core Theory</div>
+        <div class="pill">Web‑focused</div>
+        <div class="pill">No tools required</div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div>
+        <div class="nav-title">On this page</div>
+        <div class="nav-links">
+          <a href="#what-is-ux" class="active">What is UX?</a>
+          <a href="#what-is-ui">What is UI?</a>
+          <a href="#ux-vs-ui-vs-frontend">UX vs UI vs Frontend</a>
+          <a href="#mindset">Mindset shift</a>
+          <a href="#exercise">Practical exercise</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="nav-title">Modules</div>
+        <div class="nav-links">
+          <a href="#" class="active">1. Foundations of UI/UX</a>
+          <a href="module2.html">2. UX Research</a>
+          <a href="module3.html">3. Information Architecture</a>
+          <a href="module4.html">4. Wireframing</a>
+          <a href="module5.html">5. Visual UI Design</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="estimate">
+        <span>Estimated time</span>
+        <span>35–45 minutes</span>
+      </div>
+      <button class="cta-button" type="button">
+        <span class="icon">▶</span>
+        <span>Start learning Module 1 now</span>
+      </button>
+    </div>
+  </aside>
+  
+  
+  
+  
+
+  <!-- Main content -->
+  <main class="main">
+    <div class="breadcrumb">
+      <a href="index.html">Course Home</a> · <span class="current">Module 1</span>
+    </div>
+
+    <header class="module-header">
+      <div class="module-label-row">
+        <span class="module-number">Module 1</span>
+        <span class="module-badge">Level: Beginner → Intermediate</span>
+        <span class="module-badge">Focus: Web interfaces</span>
+      </div>
+      <h2 class="module-title">
+        Foundations of <span>UI/UX for the web</span>
+      </h2>
+      <p class="module-goal">
+        The goal of this module is to make you think like a UX designer, not just a coder. By the end, you’ll understand what UX and UI actually are, how they connect, and how your frontend skills translate design decisions into real user experiences.
+      </p>
+      <div class="tags-row">
+        <span class="tag accent">Conceptual thinking</span>
+        <span class="tag">User goals</span>
+        <span class="tag">Business goals</span>
+        <span class="tag">Flows & structure</span>
+      </div>
+    </header>
+
+    <!-- High-level overview: UX vs UI vs Frontend -->
+    <section class="two-column section-block">
+      <article class="concept-card">
+        <div class="badge-soft">
+          <span class="badge-soft-dot"></span>
+          <span>UX: The invisible experience</span>
+        </div>
+        <h3 class="section-title">What UX designers really care about</h3>
+        <p class="section-subtitle">
+          UX is everything a user feels before, during, and after using your website. It’s not colors and fonts. It’s clarity, flow, and how easy it is to reach a goal.
+        </p>
+        <ul class="list">
+          <li>
+            <span class="list-bullet">①</span>
+            <div>
+              <span class="list-label">User research:</span>
+              understanding who your users are, what they need, and what frustrates them.
+            </div>
+          </li>
+          <li>
+            <span class="list-bullet">②</span>
+            <div>
+              <span class="list-label">User goals vs business goals:</span>
+              helping users succeed while still serving the product or company.
+            </div>
+          </li>
+          
+          <li>
+            <span class="list-bullet">③</span>
+            <div>
+              <span class="list-label">User flows:</span>
+              mapping the steps users take to complete a task (e.g., “visit → view project → contact you”).
+            </div>
+          </li>
+          <li>
+            <span class="list-bullet">④</span>
+            <div>
+              <span class="list-label">Information architecture:</span>
+              how pages and content are organized so users never feel lost.
+            </div>
+          </li>
+          <li>
+            <span class="list-bullet">⑤</span>
+            <div>
+              <span class="list-label">Wireframes & prototypes:</span>
+              planning layouts and flows before going into visual details.
+            </div>
+          </li>
+        </ul>
+        <div class="pill-row-inline">
+          <span class="pill-mini">UX is about decisions</span>
+          <span class="pill-mini">UX starts before the UI</span>
+        </div>
+      </article>
+
+      <article class="compare-card">
+        <div class="badge-soft">
+          <span class="badge-soft-dot"></span>
+          <span>UI · UX · Frontend</span>
+        </div>
+        <h3 class="section-title">How everything connects for you</h3>
+        <p class="section-subtitle">
+          You can think of UX, UI, and frontend development as layers of the same product. Each layer answers a different question.
+        </p>
+        <div class="compare-grid">
+          <div class="compare-chip">
+            <span class="label">UX</span>
+            <strong>“What should exist?”</strong>
+            <span>Flows, structure, tasks, user journeys.</span>
+          </div>
+          <div class="compare-chip">
+            <span class="label">UI</span>
+            <strong>“How should it look?”</strong>
+            <span>Layout, color, typography, visual hierarchy.</span>
+          </div>
+          <div class="compare-chip">
+            <span class="label">Frontend</span>
+            <strong>“How does it behave?”</strong>
+            <span>Code, interactions, performance, responsiveness.</span>
+          </div>
+        </div>
+        <div class="callout" style="margin-top: 0.9rem;">
+          <div class="callout-icon">💡</div>
+          <div>
+            <div class="callout-title">Think like this as a web developer</div>
+            <p>
+              Instead of “What component should I code?”, ask: “What problem is this screen solving for the user?” Code becomes the implementation of UX decisions, not just visuals.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Section 1: What is UX -->
+    <section id="what-is-ux" class="section-block">
+      <h3 class="section-heading">1. What is <span>UX (User Experience)</span>?</h3>
+      <p class="section-lead">
+        UX is the total experience someone has while interacting with your product. It begins before they load your page (expectations) and continues after they close it (satisfaction, frustration, or delight).
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Key elements of UX for web</div>
+          <div class="card-meta">You’ll apply these in almost every project.</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">◎</span>
+              <div>
+                <span class="list-label">Clarity:</span> is it instantly obvious what this page is about and what to do next?
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◎</span>
+              <div>
+                <span class="list-label">Efficiency:</span> how many steps does it take to complete a task? Can we reduce them?
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◎</span>
+              <div>
+                <span class="list-label">Feedback:</span> does the interface respond clearly when users click, submit, or navigate?
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◎</span>
+              <div>
+                <span class="list-label">Error handling:</span> what happens if something goes wrong? Do we guide the user or blame them?
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">UX deliverables</div>
+          <div class="card-meta">What UX designers actually produce.</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">✎</span>
+              <div>
+                <span class="list-label">Personas:</span> fictional but realistic descriptions of your target users.
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">✎</span>
+              <div>
+                <span class="list-label">User flows:</span> diagrams showing paths users take to achieve goals.
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">✎</span>
+              <div>
+                <span class="list-label">Wireframes:</span> low‑fidelity screens focusing on layout and flow.
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">✎</span>
+              <div>
+                <span class="list-label">Prototypes:</span> clickable experiences to test ideas before building them.
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="callout">
+        <div class="callout-icon">👀</div>
+        <div>
+          <div class="callout-title">Mental model for UX</div>
+          <p>
+            Think of UX as removing friction. Every time a user hesitates, is confused, or doesn’t know what to click — there’s a UX problem waiting for you to solve it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: What is UI -->
+    <section id="what-is-ui" class="section-block">
+      <h3 class="section-heading">2. What is <span>UI (User Interface)</span>?</h3>
+      <p class="section-lead">
+        If UX is the invisible experience, UI is the visible layer that users actually see and touch: layout, colors, typography, contrast, spacing, and all visual elements.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">UI focuses on visuals & hierarchy</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">◆</span>
+              <div>
+                <span class="list-label">Layout:</span> how content is arranged on the page (grids, sections, columns).
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◆</span>
+              <div>
+                <span class="list-label">Color:</span> choosing a palette that supports brand and usability.
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◆</span>
+              <div>
+                <span class="list-label">Typography:</span> selecting fonts, sizes, and weights for readability and emphasis.
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">◆</span>
+              <div>
+                <span class="list-label">Spacing:</span> using white space so the interface feels calm, not crowded.
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Common UI components on the web</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">◼</span>
+              <div><span class="list-label">Buttons:</span> primary, secondary, ghost, icon buttons.</div>
+            </li>
+            <li>
+              <span class="list-bullet">◼</span>
+              <div><span class="list-label">Cards:</span> for projects, articles, or products.</div>
+            </li>
+            <li>
+              <span class="list-bullet">◼</span>
+              <div><span class="list-label">Forms:</span> inputs, labels, error states, success states.</div>
+            </li>
+            <li>
+              <span class="list-bullet">◼</span>
+              <div><span class="list-label">Navigation:</span> headers, sidebars, footers, mobile menus.</div>
+            </li>
+          </ul>
+          <div class="callout" style="margin-top: 0.6rem;">
+            <div class="callout-icon">🎨</div>
+            <div>
+              <div class="callout-title">UI is not just “making it pretty”</div>
+              <p>
+                Strong UI supports UX. Good visual hierarchy guides the eye. A clear primary button reduces confusion. Clean spacing makes it easier to scan.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: UX vs UI vs Frontend -->
+    <section id="ux-vs-ui-vs-frontend" class="section-block">
+      <h3 class="section-heading">3. UX vs UI vs <span>Frontend Development</span></h3>
+      <p class="section-lead">
+        As a frontend developer, you sit at the bridge between design and reality. UX and UI define the “plan”; your code makes it exist and feel responsive and alive.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">Same problem, three perspectives</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">1</span>
+              <div>
+                <span class="list-label">UX asks:</span> “What is the user trying to achieve on this screen?”
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">2</span>
+              <div>
+                <span class="list-label">UI asks:</span> “How can we show this in a clear, attractive way?”
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">3</span>
+              <div>
+                <span class="list-label">Frontend asks:</span> “How can I build this so it’s fast, accessible, and works on all devices?”
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">Your advantage as a hybrid</div>
+          <p>
+            If you understand UX and UI, you don’t just “code what you’re given”. You can improve flows, suggest better layouts, and make small UX improvements directly in your implementation.
+          </p>
+          <p>
+            For example, you might add smart validation messages, focus states, keyboard-friendly navigation, or subtle animations that clarify what’s happening.
+          </p>
+          <span class="inline-highlight">
+            <span>🧠</span>
+            <span>Code that respects UX decisions feels 10× more professional.</span>
+          </span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 4: Mindset -->
+    <section id="mindset" class="section-block">
+      <h3 class="section-heading">4. The <span>UX mindset</span> for web developers</h3>
+      <p class="section-lead">
+        Before we touch tools like Figma, the most important upgrade is your mindset. UI/UX is not a collection of tricks — it’s a way of thinking about users and problems.
+      </p>
+
+      <div class="columns-2">
+        <article class="card">
+          <div class="card-title">From “how do I build this?” to “why does this exist?”</div>
+          <ul class="list" style="margin-top: 0.4rem;">
+            <li>
+              <span class="list-bullet">?</span>
+              <div>
+                <span class="list-label">Ask “why” first:</span> why is this page here? What user problem does it solve?
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">?</span>
+              <div>
+                <span class="list-label">Define success:</span> how will we know this page works? (e.g., contact form submissions, time on page).
+              </div>
+            </li>
+            <li>
+              <span class="list-bullet">?</span>
+              <div>
+                <span class="list-label">Remove friction:</span> where might users get stuck, confused, or bored?
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-title">You are not the user</div>
+          <p>
+            You know your website too well. You know every button, every shortcut. Real users don’t. A UX mindset means assuming that:
+          </p>
+          <ul class="list" style="margin-top: 0.35rem;">
+            <li>
+              <span class="list-bullet">★</span>
+              <div>People scan, they don’t read every word.</div>
+            </li>
+            <li>
+              <span class="list-bullet">★</span>
+              <div>People are impatient; if they get stuck, they leave.</div>
+            </li>
+            <li>
+              <span class="list-bullet">★</span>
+              <div>People don’t care about features; they care about outcomes.</div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 5: Exercise -->
+    <section id="exercise" class="section-block">
+      <h3 class="section-heading">5. Practical exercise: <span>Login → Dashboard flow</span></h3>
+      <p class="section-lead">
+        To make this concrete, you’ll design a simple user flow for a “Login → Dashboard” experience and think about UX before UI.
+      </p>
+
+      <div class="callout">
+        <div class="callout-icon">✅</div>
+        <div>
+          <div class="badge-exercise">
+            <span>Exercise · 20–30 minutes</span>
+          </div>
+          <ol class="exercise-list">
+            <li>
+              Write down the user goal in one sentence, e.g.: “A returning user wants to log in quickly and see their dashboard.”
+            </li>
+            <li>
+              On paper or any drawing tool, sketch the user flow steps:
+              <br />– Open website → <br />– Click “Login” → <br />– See login form → <br />– Enter email & password → <br />– Submit → <br />– See success or error → <br />– Reach dashboard.
+            </li>
+            <li>
+              Under each step, write one sentence about what could make it confusing or frustrating for the user.
+            </li>
+            <li>
+              Next to that, write one UX improvement idea for each step
+              (e.g., “show password strength”, “clear error messages”, “remember email”, “loading indicator”).
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top: 0.8rem;">
+        <div class="callout-icon">🧩</div>
+        <div>
+          <div class="callout-title">Optional: connect this to your portfolio</div>
+          <p>
+            Repeat the same process for your own portfolio: “Home → View Project → Contact”. You’ll reuse this in later modules when we design your actual UI and code it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="module-footer">
+      <div>Next up: <a href="module2.html">Module 2 – UX Research</a></div>
+      <div class="module-step-nav">
+        <div class="step-btn">
+          <span class="icon">⬅</span>
+          <span>Previous: Intro</span>
+        </div>
+        <a href="module2.html" class="bttn-step primary">
+        <div class="step-btn primary">
+          <span>Next: UX Research</span>
+          <span class="icon">➡</span>
+        </div>
+       </a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
